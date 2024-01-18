@@ -11,10 +11,10 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        
+
         <Routes>
-          <Route path='/homepage*/' element={<ProtectedRoute> <HomePage/> </ProtectedRoute>} />
-          <Route path='/' element={<Login/>}/>
+          <Route path='/homepage*/' element={<ProtectedRoute> <HomePage /> </ProtectedRoute>} />
+          <Route path='/' element={<Login />} />
         </Routes>
 
       </BrowserRouter>
